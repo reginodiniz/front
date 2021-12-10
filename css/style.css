@@ -1,0 +1,109 @@
+
+body{
+    font-family: sans-serif;
+    background-image: url('../IMG/pexels-nextvoyage-490466.jpg');
+    color: #212121;
+    background-color: #d3d3d3;
+    font-size:18px;
+    margin: 0;
+    /*background: rgb(44,44,44);
+    background: linear-gradient(90deg,rgba(255,66,1971)0%,rgba(255,151,41,1)100%);*/
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form_container{
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    min-width:30%;
+}
+#val{
+    margin-right: 200px;
+    
+}
+#codigo{
+    margin-right: 100px;
+}
+.imge{
+    width: 100px;
+    height: 100px;
+  /*position: relative;*/
+}
+.imge img{
+    
+    width: 90px;
+    border-radius: 100%;
+}
+
+/*.img,.profile{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: height;
+}*/
+#imagem{
+    margin-left: -7px;
+ }
+ .fechar_prev{/*é o ponteiro(x)*/
+     font-size: 9px;
+     position:absolute;
+     top: -2px;
+     right: -15px;
+     padding-top: 2px;
+     background-color: #000;
+     line-height: 10px;
+     color: #fff;
+     text-align: center;
+     font-weight: bold;
+     width: 10px;
+     height: 10px;
+     cursor: pointer;
+    
+ }
+ #nova{
+    position: relative;
+    border: 1px solid red;
+  
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 100%;
+    z-index: 2;
+    display: none; /*para não existir imagem e aguardar chamar no block no js*/
+
+ }
+.form_button{
+    background-color: #d3d3d3;
+    font-size:18px;
+    margin: 0;
+    background: rgb(255,66,197,1);
+    background: linear-gradient(90deg,rgba(255,66,197,1)0%,
+    rgba(255,151,41,1)100%);
+    border: 0;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    width:30%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+form input{
+    line-height: 2em;
+    padding: 0px 8px;
+}
+form label{
+    font-size: 0.9em;
+}
